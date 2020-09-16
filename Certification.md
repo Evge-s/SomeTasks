@@ -1,2 +1,0 @@
-# SoftServe .NET C# Tasks
-
