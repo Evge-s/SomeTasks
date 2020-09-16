@@ -15,13 +15,15 @@
 
 7. Дано List<string> емейлів, повернути кількість емейлів які повторюються більше 2х раз
    наприклад є List<string> emails
-   у ньому:
+   у ньому:<br>
    email_1@gmail.com<br>
    email_1@gmail.com<br>
    email_2@gmail.com<br>
    email_3@gmail.com<br>
    email_3@gmail.com<br>
-   треба повернути кількість емейлів які повторяються (2)
+   email_3@gmail.com<br>
+
+   в даному прикладі return = 1 (email_3@gmail.com)
 
 8. Повернути найдовше слово в рядку.
 
