@@ -16,11 +16,11 @@
 6. Дано List<string> емейлів, повернути кількість емейлів які повторюються
    наприклад є List<string> emails
    у ньому:
-   email_1@gmail.com
-   email_1@gmail.com
-   email_2@gmail.com
-   email_3@gmail.com
-   email_3@gmail.com
+   email_1@gmail.com<br>
+   email_1@gmail.com<br>
+   email_2@gmail.com<br>
+   email_3@gmail.com<br>
+   email_3@gmail.com<br>
    треба повернути кількість емейлів які повторяються (2)
 
 7. Повернути найдовше слово в рядку.
