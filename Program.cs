@@ -7,7 +7,11 @@ namespace CertTasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Task5.SearchNumber(Task5.arr1, 3));
+            foreach (var item in Task6.GetArr(Task6.arr1, Task6.arr2))
+            {
+                Console.Write(item + " ");
+            }
+            
         }
     }
 }
