@@ -7,7 +7,8 @@ namespace CertTasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Task7.ReplayEmailsCount(Task7.emails));
+
+            Console.WriteLine(Task8.TheLongestWord(Task8.text));
             
         }
     }
