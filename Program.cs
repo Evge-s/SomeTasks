@@ -8,7 +8,7 @@ namespace CertTasks
         static void Main(string[] args)
         {
 
-            Console.WriteLine(Task8.TheLongestWord(Task8.text));
+            Console.WriteLine(Task8.TheLongestWordLinq(Task8.text));
             
         }
     }

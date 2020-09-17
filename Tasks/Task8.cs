@@ -19,8 +19,11 @@ namespace CertTasks.Tasks
         {
             string[] buff = text.Split(symbols);
             return buff.OrderByDescending(str => str.Length).First();
-        }       
-        
+            
+            // faster option
+            return buff.Where(str => str.Length == buff.Max(str => str.Length)).First(); 
+        }
+
         // Manual
         public static string TheLongestWordManual(string text)
         {
