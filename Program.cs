@@ -1,5 +1,6 @@
 ﻿using CertTasks.Tasks;
 using System;
+using System.Collections.Generic;
 
 namespace CertTasks
 {
@@ -7,11 +8,8 @@ namespace CertTasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Task9.PowNumMath(2, -3));
-            Console.WriteLine(Task9.PowNumManual(2, -3));
-            Console.WriteLine(Task9.PowNumRecursion(2, -3));
-
-
+            Console.WriteLine(Task12.FindSumLinq("11 + 341 + 5"));
+            Console.WriteLine(Task12.FindSumManual("11 + 341 + 5"));
         }
     }
 }
