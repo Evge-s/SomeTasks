@@ -39,7 +39,7 @@ namespace CertTasks.Tasks
                     temp += "0";
                 }
                 string str = buff[i] + temp;
-                result[i] = Int32.Parse(str);
+                result[i] = int.Parse(str);
             }
             return result;            
         }

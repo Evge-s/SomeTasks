@@ -8,8 +8,15 @@ namespace CertTasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Task12.FindSumLinq("11 + 341 + 5"));
-            Console.WriteLine(Task12.FindSumManual("11 + 341 + 5"));
+            foreach (var item in Task15.getDictionary(Task15.array))
+            {
+                Console.Write(item.Key + ":" + item.Value + " ");
+            }
+            Console.WriteLine();
+            foreach (var item in Task15.groupArray(Task15.array))
+            {
+                Console.Write(item.Key + ":" + item.Value + " ");
+            }
         }
     }
 }

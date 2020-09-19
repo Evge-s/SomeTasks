@@ -7,7 +7,14 @@ namespace CertTasks.Tasks
 {
     class Task12
     {
-        public static int FindSumLinq(string str)
+        // Linq
+        public static int FindSumLinq(string numbers) 
+        {
+            return Array.ConvertAll(numbers.Split('+'), num => int.Parse(num)).Sum();
+        }
+
+        // Linq with foreach
+        public static int FindSumLinqFor(string str)
         {
             string[] temp = str.Split("+");
 
@@ -15,7 +22,7 @@ namespace CertTasks.Tasks
             List<int> digits = new List<int>(); 
             foreach (var item in temp)
             {
-                digits.Add(Int32.Parse(item));
+                digits.Add(int.Parse(item));
             }
             return digits.Sum();
         }
