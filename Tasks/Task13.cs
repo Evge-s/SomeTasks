@@ -7,7 +7,7 @@ namespace CertTasks.Tasks
 {
     class Task13
     {
-        public static string textWithComma = "Text, with. Different symbols!!!";
+        public static string textWithSymbols = "Text, with. Different symbols!!!";
 
         // Linq with Max()
         public static string GetTheLongestWord(string text)

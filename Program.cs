@@ -1,6 +1,7 @@
 ﻿using CertTasks.Tasks;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CertTasks
 {
@@ -8,15 +9,7 @@ namespace CertTasks
     {
         static void Main(string[] args)
         {
-            foreach (var item in Task15.getDictionary(Task15.array))
-            {
-                Console.Write(item.Key + ":" + item.Value + " ");
-            }
-            Console.WriteLine();
-            foreach (var item in Task15.groupArray(Task15.array))
-            {
-                Console.Write(item.Key + ":" + item.Value + " ");
-            }
+          
         }
     }
 }

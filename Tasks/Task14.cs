@@ -10,12 +10,12 @@ namespace CertTasks.Tasks
     {
         public static string text = "Rykacze is a village in Poland. The administrative district of Gmina Zambrów, " +
             "within Zambrów County, Podlaskie Voivodeship, in north-eastern Poland. Village";
-       
+
         public static IEnumerable GetUniqueWords(string text)
         {
             return text.Split(new char[] { ',', '.', ' ', '!' }).GroupBy(g => g).Where(g => g.Count() == 1).Select(g => g.Key);
-        }              
-        
+        }
+
         public static IEnumerable uniqWords(string text)
         {
             return from word in text.Split(new char[] { ' ', ',', '.', '!' })

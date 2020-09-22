@@ -24,6 +24,8 @@ namespace CertTasks.Tasks
 
         public static bool ArrReverseT(int[] arr1, int[] arr2) // 2
         {
+            return arr1.SequenceEqual(arr2.Reverse());
+            // or
             return Enumerable.SequenceEqual(arr1, arr2.Reverse());
         }
     }
