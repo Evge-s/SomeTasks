@@ -21,10 +21,5 @@ namespace CertTasks.Tasks
             var temp = emails.GroupBy(email => email).Where(email => email.Count() > 2).Select(g => g.Key);
             return temp.Count();
         }
-
-        public static int CountDublicateEmails(List<string> Emails)
-        {
-            return Emails.Count() - Emails.Distinct().Count();
-        }
     }
 }
