@@ -1,4 +1,4 @@
-# SoftServe .Net C# Certification Tasks
+# Certification Tasks
 
 1. Два масиви перевірити чи 2й массив є реверсом першого.
 
